@@ -1,0 +1,101 @@
+.main{
+    display: flex;
+}
+
+.ads-tip{
+    background-color: rgb(255, 136, 0);
+    margin-left: 10px;
+    width: 1073px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.site{
+    padding: 15px 30px;
+    color: orange;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid orange;
+    border-radius: 5px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.site:last-child{
+    background-color: orange;
+    color: white;
+}
+
+.site:hover{
+    background-color: orange;
+    color: white;
+}
+
+.main-ads{
+    display: flex;
+    column-gap: 10px;
+    margin-left: 10px
+}
+
+.ads-1-img{
+    width: 612px;
+    height: 408px;
+    border-radius: 5px;
+}
+
+.left-next-ads{
+    position: absolute;
+    width: 55px;
+    opacity: 0;
+    margin-top: 80px;
+    padding: 100px 0px;
+}
+
+.ads-next-img{
+    width: 25px;
+    padding-right: 3px;
+    padding-top: 3px;
+}
+
+.next-background{
+    background-color: rgba(255, 255, 255, 0.45);
+    margin-left: 10px;
+    padding: 8px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+.right-ads-next-img{
+    width: 25px;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+.right-next-ads{
+    position: absolute;
+    width: 55px;
+    opacity: 1;
+    margin: 80px 548px;
+    padding: 100px 0px;
+    opacity: 0;
+}
+
+.right-next-ads:hover,
+.left-next-ads:hover{
+    opacity: 1;
+}
+
+.ads{
+    display: grid;
+}
+
+.ads-2-img{
+    width: 290px;
+    border-radius: 5px;
+}
+

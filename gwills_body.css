@@ -1,0 +1,64 @@
+.shoping-header{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgb(255, 136, 0);
+    border-bottom: -1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    cursor: default;
+}
+
+
+.shoping{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    padding: 5px 10px 5px 25px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    column-gap: 15px;
+    row-gap: 30px;
+}
+
+.items-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.product{
+    width: 200px;
+}
+
+
+.product-details{
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.details{
+    font-size: 15px;
+    margin: 5px 0px;
+    margin-left: 7px;
+}
+
+.price{
+    margin-left: 7px;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.off{
+    font-size: 12px;
+    color: gray;
+    text-decoration: line-through;
+    margin: 0;
+    margin-left: 7px;
+}
+

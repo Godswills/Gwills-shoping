@@ -1,0 +1,97 @@
+.history{
+    display: flex;
+    justify-content:space-between;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.Gwills-software{
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    left: 0;
+    right: 0;
+    height: 140px;
+    cursor: default;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid white;
+}
+
+.button:hover{
+    border: 1px solid rgb(255, 136, 0);
+}
+
+
+.footer-search-img{
+    border: none; 
+    margin-left: 3px;
+    font-size: 15px; 
+    outline: none; 
+    width: 400px; 
+    padding-bottom: 2px;
+}
+
+.footer{
+    position: absolute;
+    background-color: rgb(58, 58, 58);
+    margin-top: 30px;
+    height: 330px;
+    left: 0;
+    right: 0;
+    
+
+}
+
+.male,
+.female{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    border: 1px solid rgb(255, 136, 0);
+    border-radius: 5px;
+    height: 20px;
+    color: rgb(255, 136, 0);
+    margin-left: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.male:hover,
+.female:hover{
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border-color: rgb(255, 136, 0);
+}
+
+.used{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 20px;
+    color: rgb(136, 136, 136);
+    font-size: 15px;
+}
+
+.used-botton{
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 80px;
+    height: 20px;
+    border-radius: 3px;
+    margin-top: 3px;
+    padding: 2px 5px 5px 5px;
+    cursor: pointer;
+}
+
+.used-botton:hover{
+    background-color: rgb(92, 92, 92);
+}
